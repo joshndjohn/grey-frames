@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100;400;500;600;900&family=Open+Sans:ital,wght@0,500;1,400&family=Poppins:ital,wght@0,100;0,400;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,500;1,700&display=swap');
+
+:root {
+    --primaryColor: #fff;
+    --secondaryColor: #FD005B;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body,
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #191C26;
+}
+
+.likkle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    height: 100vh;
+}
+
+.feedback {
+    font-size: 2.5rem;
+    color: #c5bfbf;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 900;
+    background: linear-gradient(to right, #BB00FD 50%, #FD005B 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+}
+
+footer {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+footer .footer-copyright p {
+    color: var(--primaryColor);
+    font-size: .7rem;
+}
+
+.footer-copyright p .designed {
+    font-size: .8rem;
+    color: #FD005B;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/* .call-address {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.call-address .call {
+    display: flex;
+}
+
+.call .icon {
+    padding: 10px;
+    border: 1px solid var(--secondaryColor);
+    border-radius: 50px;
+    color: var(--secondaryColor);
+}
+
+.call .write-up {
+    margin-left: 10px;
+}
+
+.call .write-up h5 {
+    color: var(--primaryColor);
+    font-weight: 400;
+}
+
+.call .write-up p {
+    margin-top: 5px;
+    font-size: .6rem;
+    color: var(--primaryColor);
+}
+
+.call-address .call {
+    margin: 10px 0;
+} */
